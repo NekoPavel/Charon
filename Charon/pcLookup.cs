@@ -54,7 +54,7 @@ namespace Charon
     {
         public int targetId { get; set; }
         public object targetName { get; set; }
-        public int deploymentTemplateId { get; set; }
+        public object deploymentTemplateId { get; set; }
         public DeploymentTemplate deploymentTemplate { get; set; }
         public bool cleanupResources { get; set; }
         public string createdDate { get; set; }
